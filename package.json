@@ -1,29 +1,31 @@
 {
   "private": true,
-  "name": "test-parcelify",
+  "name": "grunt-browserify-parcelify-example",
   "version": "1.0.0",
-  "description": "Parcelify test project",
+  "description": "Grunt Parcelify Test Project",
   "main": "app.js",
   "scripts": {
-    "test": "npm run test"
+    "start": "grunt"
   },
   "repository": {
     "type": "git",
-    "url": "https://poonwu@github.com/poonwu/test-parcelify.git"
+    "url": "https://github.com/poonwu/grunt-browserify-parcelify-example.git"
   },
+  "keywords": [
+    "browserify",
+    "grunt",
+    "parcelify"
+  ],
   "author": "Poon Wu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/poonwu/test-parcelify/issues"
+    "url": "https://github.com/poonwu/grunt-browserify-parcelify-example/issues"
   },
-  "homepage": "https://github.com/poonwu/test-parcelify",
+  "homepage": "https://github.com/poonwu/grunt-browserify-parcelify-example",
   "dependencies": {
-    "angular-bootstrap": "^0.12.2",
-    "bootstrap": "^3.3.5",
-    "http-server": "^0.8.5"
+    "bootstrap": "^3.3.5"
   },
   "devDependencies": {
-    "browserify": "^11.2.0",
     "grunt": "^0.4.5",
     "grunt-browserify": "^4.0.1",
     "parcelify": "^2.1.0"

@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "test-parcelify",
+  "version": "1.0.0",
+  "description": "Parcelify test project",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://poonwu@github.com/poonwu/test-parcelify.git"
+  },
+  "author": "Poon Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poonwu/test-parcelify/issues"
+  },
+  "homepage": "https://github.com/poonwu/test-parcelify",
+  "dependencies": {
+    "angular-bootstrap": "^0.12.2",
+    "bootstrap": "^3.3.5",
+    "http-server": "^0.8.5"
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.1",
+    "parcelify": "^2.1.0"
+  }
+}

@@ -1,4 +1,4 @@
-# Grunt browserify parcelify plugin test project
+# (How-to) Grunt-browserify with parcelify
 The [parcelify](https://github.com/rotundasoftware/parcelify) plugin for [browserify](https://github.com/substack/node-browserify) have a serious issue with [grunt-browserify](https://github.com/jmreidy/grunt-browserify). 
 
 I suspect this is due to `grunt-browserify` relying on [async](https://github.com/caolan/async) for running multiple, simultaneous tasks, which possibly break or interrupt `browserify` pipeline.

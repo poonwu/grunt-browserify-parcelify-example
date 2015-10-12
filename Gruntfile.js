@@ -8,7 +8,6 @@ module.exports = function(grunt) {
 					'bundle.js': ['app.js']
 				},
 				options: {
-					keepAlive: {},
 					plugin: [['parcelify', {o:'bundle.css'}]]
 				}
 			}

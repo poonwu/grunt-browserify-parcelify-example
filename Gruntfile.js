@@ -1,6 +1,9 @@
 module.exports = function(grunt) {
 	'use strict';
-
+	
+	//Force fallback on async module
+	global.setImmediate = undefined;
+	
 	grunt.initConfig({
 		browserify: {
 			dist: {
